@@ -1,0 +1,39 @@
+Actor: Student (wiek 18–25)
+
+System: [Aplikacja planowania nauki]
+
+Student -> (Szybkie dodawanie zadań)
+Student -> (Lista zadań z priorytetami)
+Student -> (Edycja / usuwanie zadań)
+Student -> (Tygodniowy kalendarz)
+Student -> (Szybka wizualizacja planu nauki)
+Student -> (Ustawianie przypomnień)
+Student -> (Otrzymywanie przypomnień)
+Student -> (Zarządzanie materiałami do nauki)
+Student -> (Proste statystyki postępów)
+Student -> (Ustawienia / personalizacja interfejsu)
+
+Przykładowy ASCII-układ:
+
+    Student (18-25)
+         o
+        /|\
+        / \
+          \
+            +-------------------------------------------+
+            | Aplikacja planowania nauki                |
+            |                                           |
+            |  (Szybkie dodawanie zadań)                |
+            |  (Lista zadań z priorytetami)             |
+            |  (Edycja / usuwanie zadań)                |
+            |  (Tygodniowy kalendarz)                   |
+            |  (Szybka wizualizacja planu nauki)        |
+            |  (Ustawianie / otrzymywanie przypomnień)  |
+            |  (Zarządzanie materiałami do nauki)       |
+            |  (Proste statystyki postępów)             |
+            |  (Ustawienia / personalizacja)            |
+            +-------------------------------------------+
+
+Uwagi:
+- Główne relacje: Student korzysta ze wszystkich przypadków użycia.
+- Priorytet: szybkie dodawanie, przejrzystość kalendarza i przypomnienia — klucz dla UX.
