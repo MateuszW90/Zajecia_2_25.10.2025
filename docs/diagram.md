@@ -2,7 +2,10 @@
 flowchart LR
     Student["👤 Student\n(wiek 18–25)"]
 
-    subgraph System["📱 Aplikacja planowania nauki"]
+    subgraph System["📱Aplikacja planowania nauki"]
+%% pusta linia robi offset
+
+    A[Start] --> B[Krok 1]
         A["Szybkie dodawanie zadań"]
         B["Lista zadań z priorytetami"]
         C["Edycja / usuwanie zadań"]
